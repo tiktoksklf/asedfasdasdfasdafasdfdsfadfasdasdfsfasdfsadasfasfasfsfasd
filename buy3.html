@@ -1,0 +1,244 @@
+<html lang="en"><div id="in-page-channel-node-id" data-channel-name="in_page_channel_OW21Xx"></div><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XWare Payment Pop-up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .popup {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 255, 0.5);
+            width: 350px;
+            text-align: center;
+            position: relative;
+        }
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .btc-address {
+            background: #333;
+            padding: 5px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+    </style>
+<style>
+@keyframes slide-in-one-tap {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.trust-hide-gracefully {
+  opacity: 0;
+}
+
+.trust-wallet-one-tap .hidden {
+    display: none;
+  }
+
+.trust-wallet-one-tap .semibold {
+    font-weight: 500;
+  }
+
+.trust-wallet-one-tap .binance-plex {
+    font-family: 'Binance';
+  }
+
+.trust-wallet-one-tap .rounded-full {
+    border-radius: 50%;
+  }
+
+.trust-wallet-one-tap .flex {
+    display: flex;
+  }
+
+.trust-wallet-one-tap .flex-col {
+    flex-direction: column;
+  }
+
+.trust-wallet-one-tap .items-center {
+    align-items: center;
+  }
+
+.trust-wallet-one-tap .space-between {
+    justify-content: space-between;
+  }
+
+.trust-wallet-one-tap .justify-center {
+    justify-content: center;
+  }
+
+.trust-wallet-one-tap .w-full {
+    width: 100%;
+  }
+
+.trust-wallet-one-tap .box {
+    transition: all 0.5s cubic-bezier(0, 0, 0, 1.43);
+    animation: slide-in-one-tap 0.5s cubic-bezier(0, 0, 0, 1.43);
+    width: 384px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 1020;
+  }
+
+.trust-wallet-one-tap .header {
+    gap: 15px;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 10px 18px;
+  }
+
+.trust-wallet-one-tap .header .left-items {
+      gap: 15px
+    }
+
+.trust-wallet-one-tap .header .title {
+      color: #1E2329;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 28px;
+    }
+
+.trust-wallet-one-tap .header .subtitle {
+      color: #474D57;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+.trust-wallet-one-tap .header .close {
+      color: #1E2329;
+      cursor: pointer;
+    }
+
+.trust-wallet-one-tap .body {
+    padding: 9px 18px;
+    gap: 10px;
+
+  }
+
+.trust-wallet-one-tap .body .right-items {
+      gap: 10px;
+      width: 100%;
+    }
+
+.trust-wallet-one-tap .body .right-items .wallet-title {
+        color: #1E2329;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+      }
+
+.trust-wallet-one-tap .body .right-items .wallet-subtitle {
+        color: #474D57;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+.trust-wallet-one-tap .connect-indicator {
+    gap: 15px;
+    padding: 8px 0;
+  }
+
+.trust-wallet-one-tap .connect-indicator .flow-icon {
+      color: #474D57;
+    }
+
+.trust-wallet-one-tap .loading-color {
+    color: #FFF;
+  }
+
+.trust-wallet-one-tap .button {
+    border-radius: 50px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    background-color: rgb(5, 0, 255);
+    border-color: rgb(229, 231, 235);
+    cursor: pointer;
+    text-align: center;
+    height: 45px;
+  }
+
+.trust-wallet-one-tap .button .button-text {
+      color: #FFF;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+
+.trust-wallet-one-tap .footer {
+    margin: 20px 30px;
+  }
+
+.trust-wallet-one-tap .check-icon {
+    color: #FFF;
+  }
+
+@font-face {
+  font-family: 'Binance';
+  src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Regular.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Binance';
+  src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Medium.otf) format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Binance';
+  src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-SemiBold.otf) format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+</style></head>
+<body>
+    <div class="popup">
+        <button class="close-btn" onclick="closePopup()">×</button>
+        <h2>Xware fortnite crasher</h2>
+        <h3>$25.00</h3>
+        <p><strong>Remaining:</strong> 24H</p>
+        <p><strong>• Bitcoin Address</strong></p>
+        <p class="btc-address">bc1qr0efsye24egnmjvhzj3r470klkvq6d5pf42cy5</p>
+        <p><strong>• Cash App</strong></p>
+        <p class="btc-address">$zasoa</p>
+        <p><strong>• Litecoin Address</strong></p>
+        <p class="btc-address">ltc1qkq2wf886yjf9vey0r8mflmnhv0uta6chgfep9x</p>
+        <p><strong>Payment Status:</strong> Incomplete</p>
+        <p>Transaction powered by XWare</p>
+        <p><strong>Order ID:</strong> 0ee1488b-8bf3-4314-a901-d067de9b852a</p>
+    </div>
+    <script>
+        function closePopup() {
+            document.querySelector('.popup').style.display = 'none';
+        }
+    </script>
+
+</body></html>
