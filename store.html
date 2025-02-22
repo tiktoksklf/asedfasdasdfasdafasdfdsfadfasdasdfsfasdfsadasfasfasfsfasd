@@ -1,0 +1,5882 @@
+<html id="drawncodes" lang="en-US" dir="ltr" data-theme-author="Alexandru - www.drawncodes.com" data-theme-name="Lavi New"><div id="in-page-channel-node-id" data-channel-name="in_page_channel_rrxjGO"></div><head><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NLQMRN5"></script><style>
+@keyframes slide-in-one-tap {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.trust-hide-gracefully {
+  opacity: 0;
+}
+
+.trust-wallet-one-tap .hidden {
+    display: none;
+  }
+
+.trust-wallet-one-tap .semibold {
+    font-weight: 500;
+  }
+
+.trust-wallet-one-tap .binance-plex {
+    font-family: 'Binance';
+  }
+
+.trust-wallet-one-tap .rounded-full {
+    border-radius: 50%;
+  }
+
+.trust-wallet-one-tap .flex {
+    display: flex;
+  }
+
+.trust-wallet-one-tap .flex-col {
+    flex-direction: column;
+  }
+
+.trust-wallet-one-tap .items-center {
+    align-items: center;
+  }
+
+.trust-wallet-one-tap .space-between {
+    justify-content: space-between;
+  }
+
+.trust-wallet-one-tap .justify-center {
+    justify-content: center;
+  }
+
+.trust-wallet-one-tap .w-full {
+    width: 100%;
+  }
+
+.trust-wallet-one-tap .box {
+    transition: all 0.5s cubic-bezier(0, 0, 0, 1.43);
+    animation: slide-in-one-tap 0.5s cubic-bezier(0, 0, 0, 1.43);
+    width: 384px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 1020;
+  }
+
+.trust-wallet-one-tap .header {
+    gap: 15px;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 10px 18px;
+  }
+
+.trust-wallet-one-tap .header .left-items {
+      gap: 15px
+    }
+
+.trust-wallet-one-tap .header .title {
+      color: #1E2329;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 28px;
+    }
+
+.trust-wallet-one-tap .header .subtitle {
+      color: #474D57;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+.trust-wallet-one-tap .header .close {
+      color: #1E2329;
+      cursor: pointer;
+    }
+
+.trust-wallet-one-tap .body {
+    padding: 9px 18px;
+    gap: 10px;
+
+  }
+
+.trust-wallet-one-tap .body .right-items {
+      gap: 10px;
+      width: 100%;
+    }
+
+.trust-wallet-one-tap .body .right-items .wallet-title {
+        color: #1E2329;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+      }
+
+.trust-wallet-one-tap .body .right-items .wallet-subtitle {
+        color: #474D57;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+.trust-wallet-one-tap .connect-indicator {
+    gap: 15px;
+    padding: 8px 0;
+  }
+
+.trust-wallet-one-tap .connect-indicator .flow-icon {
+      color: #474D57;
+    }
+
+.trust-wallet-one-tap .loading-color {
+    color: #FFF;
+  }
+
+.trust-wallet-one-tap .button {
+    border-radius: 50px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    background-color: rgb(5, 0, 255);
+    border-color: rgb(229, 231, 235);
+    cursor: pointer;
+    text-align: center;
+    height: 45px;
+  }
+
+.trust-wallet-one-tap .button .button-text {
+      color: #FFF;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+
+.trust-wallet-one-tap .footer {
+    margin: 20px 30px;
+  }
+
+.trust-wallet-one-tap .check-icon {
+    color: #FFF;
+  }
+
+@font-face {
+  font-family: 'Binance';
+  src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Regular.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Binance';
+  src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Medium.otf) format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Binance';
+  src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-SemiBold.otf) format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+</style></head><body class="ipsApp ipsApp_front ipsJS_has ipsClearfix ipsApp_noTouch" data-controller="core.front.core.app" data-message="" data-pageapp="nexus" data-pagelocation="front" data-pagemodule="store" data-pagecontroller="store"><div id="in-page-channel-node-id" data-channel-name="in_page_channel_mT0Q48"></div><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NLQMRN5"></script><style>
+@keyframes slide-in-one-tap {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.trust-hide-gracefully {
+  opacity: 0;
+}
+
+.trust-wallet-one-tap .hidden {
+    display: none;
+  }
+
+.trust-wallet-one-tap .semibold {
+    font-weight: 500;
+  }
+
+.trust-wallet-one-tap .binance-plex {
+    font-family: 'Binance';
+  }
+
+.trust-wallet-one-tap .rounded-full {
+    border-radius: 50%;
+  }
+
+.trust-wallet-one-tap .flex {
+    display: flex;
+  }
+
+.trust-wallet-one-tap .flex-col {
+    flex-direction: column;
+  }
+
+.trust-wallet-one-tap .items-center {
+    align-items: center;
+  }
+
+.trust-wallet-one-tap .space-between {
+    justify-content: space-between;
+  }
+
+.trust-wallet-one-tap .justify-center {
+    justify-content: center;
+  }
+
+.trust-wallet-one-tap .w-full {
+    width: 100%;
+  }
+
+.trust-wallet-one-tap .box {
+    transition: all 0.5s cubic-bezier(0, 0, 0, 1.43);
+    animation: slide-in-one-tap 0.5s cubic-bezier(0, 0, 0, 1.43);
+    width: 384px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 1020;
+  }
+
+.trust-wallet-one-tap .header {
+    gap: 15px;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 10px 18px;
+  }
+
+.trust-wallet-one-tap .header .left-items {
+      gap: 15px
+    }
+
+.trust-wallet-one-tap .header .title {
+      color: #1E2329;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 28px;
+    }
+
+.trust-wallet-one-tap .header .subtitle {
+      color: #474D57;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+.trust-wallet-one-tap .header .close {
+      color: #1E2329;
+      cursor: pointer;
+    }
+
+.trust-wallet-one-tap .body {
+    padding: 9px 18px;
+    gap: 10px;
+
+  }
+
+.trust-wallet-one-tap .body .right-items {
+      gap: 10px;
+      width: 100%;
+    }
+
+.trust-wallet-one-tap .body .right-items .wallet-title {
+        color: #1E2329;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+      }
+
+.trust-wallet-one-tap .body .right-items .wallet-subtitle {
+        color: #474D57;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+.trust-wallet-one-tap .connect-indicator {
+    gap: 15px;
+    padding: 8px 0;
+  }
+
+.trust-wallet-one-tap .connect-indicator .flow-icon {
+      color: #474D57;
+    }
+
+.trust-wallet-one-tap .loading-color {
+    color: #FFF;
+  }
+
+.trust-wallet-one-tap .button {
+    border-radius: 50px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    background-color: rgb(5, 0, 255);
+    border-color: rgb(229, 231, 235);
+    cursor: pointer;
+    text-align: center;
+    height: 45px;
+  }
+
+.trust-wallet-one-tap .button .button-text {
+      color: #FFF;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+
+.trust-wallet-one-tap .footer {
+    margin: 20px 30px;
+  }
+
+.trust-wallet-one-tap .check-icon {
+    color: #FFF;
+  }
+
+@font-face {
+  font-family: 'Binance';
+  src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Regular.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Binance';
+  src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Medium.otf) format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Binance';
+  src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-SemiBold.otf) format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+</style><div id="in-page-channel-node-id" data-channel-name="in_page_channel_tYWgwQ"></div>
+  <meta charset="utf-8">
+
+  <title>Store - Top Game hacks</title>
+
+
+
+    <!-- Google Tag Manager -->
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-J8TEZ3TWF5&amp;l=dataLayer&amp;cx=c&amp;gtm=45He52k0v841261487za200"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NLQMRN5"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NLQMRN5');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+      <meta property="og:site_name" content="LaviCheats">
+
+
+
+
+
+
+
+      <meta property="og:locale" content="en_US">
+
+
+
+
+
+
+
+      <meta name="description" content="We at Lavicheats, offer top-quality game hacks that lead the industry. If you have any questions or need help, please feel free to contact us.">
+
+
+
+
+
+
+
+
+
+<link rel="manifest" href="https://lavicheats.com/manifest.webmanifest/">
+<meta name="msapplication-config" content="https://lavicheats.com/browserconfig.xml/">
+<meta name="msapplication-starturl" content="/">
+<meta name="application-name" content="LaviCheats">
+<meta name="apple-mobile-web-app-title" content="LaviCheats">
+
+<meta name="theme-color" content="#1e2027">
+
+
+
+
+
+
+
+
+
+
+<link rel="preload" href="//lavicheats.com/applications/core/interface/font/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin="anonymous">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+
+
+
+
+<link rel="stylesheet" href="https://lavicheats.com/uploads/css_built_16/341e4a57816af3ba440d891ca87450ff_framework.css?v=0eefbca3311739167709" media="all">
+
+<link rel="stylesheet" href="https://lavicheats.com/uploads/css_built_16/05e81b71abe4f22d6eb8d1a929494829_responsive.css?v=0eefbca3311739167709" media="all">
+
+<link rel="stylesheet" href="https://lavicheats.com/uploads/css_built_16/90eb5adf50a8c640f633d47fd7eb1778_core.css?v=0eefbca3311739167709" media="all">
+
+<link rel="stylesheet" href="https://lavicheats.com/uploads/css_built_16/5a0da001ccc2200dc5625c3f3934497d_core_responsive.css?v=0eefbca3311739167709" media="all">
+
+<link rel="stylesheet" href="https://lavicheats.com/uploads/css_built_16/7e700700c9e441127acd87ce0d0ceec8_nexus.css?v=0eefbca3311739167709" media="all">
+
+<link rel="stylesheet" href="https://lavicheats.com/uploads/css_built_16/d5254fde5a00603b442827417f3143ee_store.css?v=0eefbca3311739167709" media="all">
+
+<link rel="stylesheet" href="https://lavicheats.com/uploads/css_built_16/62ea6f8317f9765a5cedeb8fd4f93f33_store_responsive.css?v=0eefbca3311739167709" media="all">
+
+
+
+
+
+<link rel="stylesheet" href="https://lavicheats.com/uploads/css_built_16/258adbb6e4f3e83cd3b355f84e3fa002_custom.css?v=0eefbca3311739167709" media="all">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="icon" href="https://lavicheats.com/uploads/monthly_2020_02/favicon-32x32.png">
+
+
+
+
+
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+      <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.5.2/css/pro.min.css">
+<style>
+@keyframes slide-in-one-tap {
+from {
+  transform: translateY(80px);
+}
+to {
+  transform: translateY(0px);
+}
+}
+
+.trust-hide-gracefully {
+opacity: 0;
+}
+
+.trust-wallet-one-tap .hidden {
+  display: none;
+}
+
+.trust-wallet-one-tap .semibold {
+  font-weight: 500;
+}
+
+.trust-wallet-one-tap .binance-plex {
+  font-family: 'Binance';
+}
+
+.trust-wallet-one-tap .rounded-full {
+  border-radius: 50%;
+}
+
+.trust-wallet-one-tap .flex {
+  display: flex;
+}
+
+.trust-wallet-one-tap .flex-col {
+  flex-direction: column;
+}
+
+.trust-wallet-one-tap .items-center {
+  align-items: center;
+}
+
+.trust-wallet-one-tap .space-between {
+  justify-content: space-between;
+}
+
+.trust-wallet-one-tap .justify-center {
+  justify-content: center;
+}
+
+.trust-wallet-one-tap .w-full {
+  width: 100%;
+}
+
+.trust-wallet-one-tap .box {
+  transition: all 0.5s cubic-bezier(0, 0, 0, 1.43);
+  animation: slide-in-one-tap 0.5s cubic-bezier(0, 0, 0, 1.43);
+  width: 384px;
+  border-radius: 15px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 1020;
+}
+
+.trust-wallet-one-tap .header {
+  gap: 15px;
+  border-bottom: 1px solid #E6E6E6;
+  padding: 10px 18px;
+}
+
+.trust-wallet-one-tap .header .left-items {
+    gap: 15px
+  }
+
+.trust-wallet-one-tap .header .title {
+    color: #1E2329;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+.trust-wallet-one-tap .header .subtitle {
+    color: #474D57;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+.trust-wallet-one-tap .header .close {
+    color: #1E2329;
+    cursor: pointer;
+  }
+
+.trust-wallet-one-tap .body {
+  padding: 9px 18px;
+  gap: 10px;
+
+}
+
+.trust-wallet-one-tap .body .right-items {
+    gap: 10px;
+    width: 100%;
+  }
+
+.trust-wallet-one-tap .body .right-items .wallet-title {
+      color: #1E2329;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+
+.trust-wallet-one-tap .body .right-items .wallet-subtitle {
+      color: #474D57;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+.trust-wallet-one-tap .connect-indicator {
+  gap: 15px;
+  padding: 8px 0;
+}
+
+.trust-wallet-one-tap .connect-indicator .flow-icon {
+    color: #474D57;
+  }
+
+.trust-wallet-one-tap .loading-color {
+  color: #FFF;
+}
+
+.trust-wallet-one-tap .button {
+  border-radius: 50px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  background-color: rgb(5, 0, 255);
+  border-color: rgb(229, 231, 235);
+  cursor: pointer;
+  text-align: center;
+  height: 45px;
+}
+
+.trust-wallet-one-tap .button .button-text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+.trust-wallet-one-tap .footer {
+  margin: 20px 30px;
+}
+
+.trust-wallet-one-tap .check-icon {
+  color: #FFF;
+}
+
+@font-face {
+font-family: 'Binance';
+src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Regular.otf) format('opentype');
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Binance';
+src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Medium.otf) format('opentype');
+font-weight: 500;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Binance';
+src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-SemiBold.otf) format('opentype');
+font-weight: 600;
+font-style: normal;
+}
+
+</style>
+
+
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLQMRN5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+  <a href="#ipsLayout_mainArea" class="ipsHide" title="Go to main content on this page" accesskey="m">Jump to content</a>
+
+
+
+
+
+
+
+
+
+<div id="mobileNav">
+<ul>
+  <li class="is-active">
+    <a href="/store/">
+      <i class="fa-solid fa-store"></i>
+      <span>Store</span>
+    </a>
+  </li>
+  <li class="">
+    <a href="/status/">
+      <i class="fa-solid fa-list-check"></i>
+      <span>Status</span>
+    </a>
+  </li>
+
+    <li class="ipsJS_show ">
+      <a href="https://lavicheats.com/search/">
+        <i class="fa fa-search"></i>
+        <span>Search</span>
+      </a>
+    </li>
+
+  <li class="">
+    <a href="/contact-us/">
+      <i class="fa-solid fa-life-ring"></i>
+      <span>Support</span>
+    </a>
+  </li>
+  <li data-ipsdrawer="" data-ipsdrawer-drawerelem="#elMobileDrawer">
+    <a href="#">
+      <i class="fa-solid fa-ellipsis"></i>
+
+
+
+
+
+
+      <span>more</span>
+    </a>
+  </li>
+</ul>
+</div>
+      <div class="theme-header__wrapper">
+        <div class="theme-header__wrapper">
+          <header id="theme-header">
+            <div class="headerRow headerRow_primary">
+              <div class="ipsLayout_container">
+                <div class="headerRow_left">
+                  
+
+
+<a href="index.html" id="elLogo" accesskey="1"><img src="https://icones.pro/wp-content/uploads/2021/08/icone-x-jaune.png" alt="LaviCheats" width="200" height="auto"></a>
+
+                  <div class="cOnlineUsers">
+                    <a href="/online">
+                      <span class="onlineIcon"><i class="fa-regular fa-signal-stream"></i></span>
+                      <div class="cOnlineUsers_co">
+                        <span>153</span>
+                        <span>Online</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="cDiscord cIcon">
+                    <a href="https://discord.gg/2vs8SKTBUg" rel="nofollow" target="_blank"><i class="fa-brands fa-discord"></i> Discord</a>
+                  </div>
+                </div>
+                
+                  
+
+	
+
+                
+              </div>
+            </div>
+            
+            <div class="headerRow headerRow_secondary">
+              <div class="ipsLayout_container">
+                
+
+	<nav data-controller="core.front.core.navBar" class="headerRow_nav ipsNavBar_noSubBars ipsResponsive_showDesktop" id="ips_uid_5344_2">
+		<div class="ipsNavBar_primary ipsNavBar_noSubBars">
+			<ul data-role="primaryNavBar" class="ipsClearfix">
+				
+
+
+    
+    
+	
+		
+		
+		
+	
+	
+
+    
+    
+	
+		
+		
+		<li data="" id="elNavSecondary_39" data-role="navBarItem" data-navapp="stsmanager" data-navext="STSViewMenu" data-originalwidth="96.4062">
+			
+			
+				<a href="status.html" data-navitem-id="39">
+                    <div class="_icon">
+                      
+                        
+                          
+                      		<i class="fa-solid fa-list-check"></i>
+                      	  
+                        
+                      
+                    </div>
+                  	<span class="itemTitle">Status</span>
+				</a>
+			
+			
+		</li>
+	
+	
+
+    
+    
+	
+		
+		
+		
+	
+	
+
+    
+    
+	
+		
+		
+		<li data="" id="elNavSecondary_102" data-role="navBarItem" data-navapp="core" data-navext="Menu" data-originalwidth="103.562">
+			
+			
+				<a href="store.html" id="elNavigation_102" data-ipsmenu="" data-ipsmenu-appendto="#elNavSecondary_102" data-ipsmenu-active="" class="ipsNavActive_menu" data-navitem-id="102">
+    <div class="_icon">
+        <i class="fa-solid fa-shop"></i>
+    </div>
+    <span class="itemTitle">Store <i class="fa-solid fa-angle-down"></i></span>
+</a>
+
+				<ul id="elNavigation_102_menu" class="ipsMenu ipsMenu_auto ipsHide">
+					
+
+	
+		
+			<li class="ipsMenu_item">
+				<a href="store.html">
+					Store
+				</a>
+			</li>
+		
+	
+
+	
+
+				</ul>
+			
+			
+		</li>
+	
+	
+
+    
+    
+	
+		
+		
+		<li data="forum" id="elNavSecondary_185" data-role="navBarItem" data-navapp="core" data-navext="CustomItem" data-originalwidth="107.953">
+			
+			
+				
+			
+			
+		</li>
+	
+	
+
+    
+    
+	
+		
+		
+		
+	
+	
+
+    
+    
+	
+	
+
+				<li class="ipsHide" id="elNavigationMore" data-role="navMore" style="">
+					<a href="#" data-ipsmenu="" data-ipsmenu-appendto="#elNavigationMore" id="elNavigationMore_dropdown">More <i class="fa fa-caret-down"></i> <i class="fa fa-caret-down"></i> <i class="fa fa-caret-down"></i> <i class="fa fa-caret-down"></i> <i class="fa fa-caret-down"></i> <i class="fa fa-caret-down"></i> <i class="fa fa-caret-down"></i> <i class="fa fa-caret-down"></i> <i class="fa fa-caret-down"></i></a><ul class="ipsHide ipsMenu ipsMenu_auto" id="elNavigationMore_dropdown_menu" data-role="moreDropdown"></ul>
+					<ul class="ipsNavBar_secondary ipsHide" data-role="secondaryNavBar">
+						<li class="ipsHide" id="elNavigationMore_more" data-role="navMore">
+							<a href="#" data-ipsmenu="" data-ipsmenu-appendto="#elNavigationMore_more" id="elNavigationMore_more_dropdown">More <i class="fa-solid fa-angle-down"></i></a>
+							
+						</li>
+					</ul>
+				</li>
+			</ul>
+			
+
+	<div id="elSearchWrapper">
+		
+	</div>
+
+		</div>
+	</nav>
+
+              </div>
+            </div>
+          </header>
+          
+        </div>
+
+
+             <div class="theme-header__hero">
+                <div class="ipsLayout_container">
+
+                    <h1 class="heroTitle">Experience Gaming<br> Like <b>Never Before</b>
+</h1>
+                    <p class="heroDesc">xware, the greatest and most advanced gaming augmentation service on the market.</p>
+
+                </div>
+              </div>
+
+
+      </div>
+  <main id="ipsLayout_body" class="ipsLayout_container">
+    <div id="ipsLayout_contentArea">
+      <div id="ipsLayout_contentWrapper">
+
+
+
+        <div id="ipsLayout_mainArea">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--DRAWNCODES.GAMESEARCH.START-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="gameSearch ipsBox">
+
+
+
+
+<div class="gameSearch_wrapper">
+
+    <div id="popular" class="groups-tabContent is-active" style="display: block;">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="aiaimbot.html">
+
+                  <div class="cStoreGame_image">
+                    <img src="Untitled design.png">
+                  </div>
+
+                <span class="cStoreGame_name">Fortnite</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="spoofer.html">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://digiseller.mycdn.ink/preview/935740/p1_3730532_51cb5ba4.png">
+                  </div>
+
+                <span class="cStoreGame_name">Spoofer</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+
+    <div id="groups_a" class="groups-tabContent" style="display: none;">
+      <ul class="gameSearch_groups">
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/226-among-us/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/AmongUs_Main-min.webp.2b81db46db5b8a074fd583ec0e72bb8f.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Among Us</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/6-apex-legends/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/1166597903_Apexlegends-min.webp.bba3c390152338f8d158065d64e1fc2a.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Apex Legends</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/360-ark-survival-ascended/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2023_11/ArkSurvivalAsc_Thumb-min.webp.f68c352b1031c2ac35faa5c3b0fcf6bb.webp">
+                  </div>
+
+                <span class="cStoreGame_name">ARK Survival Ascended</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/136-arma-3/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/1874009948_Arma3-min.webp.e38d04e22d7df2c8467270e6aed8e3a6.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Arma 3</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/411-arena-breakout-infinite/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2024_05/ArenaBreakout_Thumb-min.webp.874d2b96be55134a9d00872899690c64.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Arena Breakout: Infinite</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_b" class="groups-tabContent" style="display: none;">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/324-battlebit-remastered/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2023_06/BattleBit_Thumb-min.webp.025de7fc5b0981f9db8a454c1525fd79.webp">
+                  </div>
+
+                <span class="cStoreGame_name">BattleBit Remastered</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/444-battlefield-1/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2024_11/Battlefield1_Thumb-min.webp.2c98c660d4afc31d92d66e4ccffc55ef.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Battlefield 1</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/165-battlefield-2042/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/1416470667_BF2042-min.webp.2ab1f0f1074f282f4911ad7b2a3c4ad0.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Battlefield 2042</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/449-battlefield-5/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2024_12/Battlefield5_Thumb-min.webp.d5b24d6159d3a64f37e645f1e1bec472.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Battlefield 5</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/143-bloodhunt/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/BloodHunt-min.webp.9976eeb9779f4d3281e531ff95017649.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Bloodhunt</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_c" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/441-cod-bo6-warzone/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2024_09/COD_BO6_Thumb-min.webp.fc56e4aa884907edb2cc4bb064060bfb.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Cod BO6/ Warzone</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/265-cod-mw2/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/COD_MW2_Thumb-min.webp.58e04da598846119182c75b7a5b2f713.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Cod MW2</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/358-cod-mw3/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2023_10/COD_MW3_Thumb-min.webp.0b34a2bede04b3e917a9a1b990846b9a.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Cod MW3</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/94-cold-war/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/494647358_ColdWar-min.webp.6fa9382ba6ff21c2d6c7583ad7e3101d.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Cold War</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/303-counter-strike-2/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2023_04/CS_2_Thumb-min.webp.a0b683e502693325b54c1122488382c6.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Counter Strike 2</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_d" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/292-dark-and-darker/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2023_04/Dark_n_Darker_Thumb-min.webp.26492d0f8db7b18a4e6ff33c24165a58.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Dark and Darker</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/18-dayz/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/DayZ-min.webp.07fb061f99f1af6fc276aa0d94fadadb.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Dayz</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/17-dead-by-daylight/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/345645662_DeadBydaylight-min.webp.749376a8195a8018ffeb1c55d7ee54c4.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Dead By Daylight</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/443-deadlock/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2024_11/Deadlock_Thumb-min.webp.20c4abca4b1f7c8cc1426950fa88d1ae.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Deadlock</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/258-deadside/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/Deadside_Thumb-min.webp.9012b048ed3f3fc3155b5ea1d69c060a.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Deadside</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/436-delta-force-hawk-ops/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2024_08/DeltaForce_Thumb-min.webp.3e37b25fddb492876d823c8b4a8b009c.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Delta Force Hawk Ops</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_e" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/9-escape-from-tarkov/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/1749797601_Escapefromtarkov-min.webp.23b30a2e76dfb6edc03e80748883802c.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Escape From Tarkov </span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/236-elden-ring/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/EldenRing_Thumb-min.webp.413d383a6c00041efcc666535ec989f0.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Elden Ring</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_f" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/314-farlight-84/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2023_05/Farlight_Thumb-min.webp.7bf49fc876a547d5357ed43b13b9c099.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Farlight 84</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/445-fc-25/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2024_09/maxresdefault-min.webp.895146833c38713123b8bcb8f254543f.webp">
+                  </div>
+
+                <span class="cStoreGame_name">FC 25</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/69-fortnite/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/Fortnite-min.webp.7646dc0f878b0ab6552b94f2d62bd34e.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Fortnite</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_g" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/399-gray-zone-warfare/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2024_05/GreyZoneWarfare_Thumb-min.webp.e56f73e2c20c0327d66156f9ed6a08fc.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Gray Zone Warfare</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/350-greed-is-good/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2023_10/GreedIsGood_Thumb-min.webp.79a579e439cf2d21cb8174280f8112db.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Greed is Good</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/175-gta-5-online-fivem/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/GTAV-min.webp.4afb9675d900c9688310d089eea00c2d.webp">
+                  </div>
+
+                <span class="cStoreGame_name">GTA 5 Online/ FiveM</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_h" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/176-halo-infinite/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/HaloInfinite-min.webp.6aea27e074351c09bdb561263acbe902.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Halo Infinite</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/269-hell-let-loose/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/HLL_Thumb-min.webp.99d051da4b71e6f69f6fad629c26cf14.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Hell Let Loose</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/135-hunt-showdown/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/Hunt-min.webp.76388f39d591d406bdb48b35bbe0e408.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Hunt: Showdown</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/15-hwid-spoofer/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/Spoofer-min.webp.d7bbfa47e6b954220812a17c88cd8b4c.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Hwid Spoofer</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_m" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/451-marvel-rivals/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2024_12/MarvelRivalsThumb-min.webp.3836aa96ba054cf7b6cc502181a56a96.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Marvel Rivals</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/260-marauders/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/Marauders_Thumb-min.webp.2b7d71ce63cfd0b610cf2f8e4b07abbb.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Marauders</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_n" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/268-naraka-bladepoint/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/1384036030_narakabladepoint-min.webp.d5f135cdb91d4a85075b51a94759de72.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Naraka Bladepoint</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_o" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/442-once-human/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2024_09/OnceHuman_Thumb-min.webp.5283219f4ec5429cf073ca4328a89973.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Once Human</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/448-off-the-grid/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2024_10/OffTheGridwallpaper.webp.f8369b9737c5293b4a41459847c5b184.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Off The Grid</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/16-overwatch-2/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/Overwatch2_Thumb-min.webp.85037d5a191d1cd10c6dc043284c2f52.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Overwatch 2</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_p" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/299-paladins/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2023_04/Paladins_Thumb-min.webp.0cc797a37df7383271b1821230e934f3.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Paladins</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/3-pubg-steam/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/PUBG-min.webp.b17c23875514967e02aafe2b85396721.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Pubg Steam</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_r" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/14-rainbow-six-siege/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/Rainbow-min.webp.204a6c5fced0a8a37a4ee3c867fc8366.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Rainbow Six Siege</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/75-rogue-company/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/781468671_RogueCompany-min.webp.66671cc17d6cf49027f4bc5f793b7ec1.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Rogue Company</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/344-rocket-league/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2023_09/RocketLeague_Thumb-min.webp.f747cf5148a3a8cef1a26940700d724f.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Rocket League</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/13-rust/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/Rust-min.webp.37d109fc48d0fe13a25237249a2dc5f7.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Rust</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_s" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/245-scum/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/Scum_thumb-min.webp.a95605e41c44c30283b7c5add954b95d.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Scum</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/243-sea-of-thieves/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/SeaOfThieves_Thumb-min.webp.20c2576242367750f0e05ae39f14845f.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Sea of Thieves</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/312-splitgate/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2023_05/Splitgate_Thumb-min.webp.2c1a6d7e0bdd6d87ccb45f3d235da05c.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Splitgate</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/257-squad/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/Squad_Thumb-min.webp.3f7d8365c7d1b2d89a396b67757e06a2.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Squad</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_t" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/240-the-division-2/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/TheDivision2_Thumb-min.webp.e9bc2b7848b8e4b5bb4fca2dcfdcf31d.webp">
+                  </div>
+
+                <span class="cStoreGame_name">The Division 2</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/300-the-finals/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2023_12/TheFinals_Thumb-min.webp.4c057929ec04702481737de64d702ba4.webp">
+                  </div>
+
+                <span class="cStoreGame_name">The Finals</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/430-the-first-descendant/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2024_09/TheFirstDescendant_Thumb-min.webp.df026659c4c3d491b14980fd30ed7b0e.webp">
+                  </div>
+
+                <span class="cStoreGame_name">The First Descendant</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/359-the-front/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2023_10/TheFront_Thumb-min.webp.0b2aad219f8f4dda78677bf2368baa80.webp">
+                  </div>
+
+                <span class="cStoreGame_name">The Front</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_u" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/246-unturned/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2023_10/Unturned_Thumb-min.webp.f24da6e07b1def9c6fa6a7ae88920994.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Unturned</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_v" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/11-valorant/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/Valorant-min.webp.00243cb0e8123ca4044774def0b68334.webp">
+                  </div>
+
+                <span class="cStoreGame_name">Valorant</span>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_w" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/253-war-thunder/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/WarThunder_Thumb-min_1.webp.b973a59198bf6274d712688136d555c1.webp">
+                  </div>
+
+                <span class="cStoreGame_name">War Thunder</span>
+              </a>
+            </li>
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/259-world-war-3/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2022_12/WW3_Thumb-min_1.webp.407972adc1ef8482604084a85ff448e2.webp">
+                  </div>
+
+                <span class="cStoreGame_name">World War 3</span>
+              </a>
+            </li>
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div id="groups_x" class="groups-tabContent ">
+      <ul class="gameSearch_groups">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="cStoreGame">
+              <a href="https://lavicheats.com/store/category/408-xdefiant/">
+
+                  <div class="cStoreGame_image">
+                    <img src="https://lavicheats.com/uploads/monthly_2024_05/Xdefiant_Thumb-min.webp.8b883d89a2db303d2ad75741a93bc10e.webp">
+                  </div>
+
+                <span class="cStoreGame_name">XDefiant </span>
+              </a>
+            </li>
+
+
+      </ul>
+    </div>
+
+</div>
+</div>
+<!--DRAWNCODES.GAMESEARCH.END-->
+
+
+
+<section class="ipsSpacer_top">
+
+
+
+
+
+</section>
+
+
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </main>
+      <footer id="theme-footer__wrapper">
+          <div class="theme-footer__main">
+                <div class="ipsLayout_container">
+                    <ul class="cFooterMain_wrapper">
+                        <li class="cFooterLinks_column cFooter_aboutus">
+                            
+                                
+                                <a href="https://lavicheats.com/" id="elLogo" accesskey="2"><img src="https://icones.pro/wp-content/uploads/2021/08/icone-x-jaune.png" alt="xware" width="200" height="auto"></a>
+                            
+                            <p class="cFooterLinks_desc">xware , the greatest and most advanced gaming augmentation service on the market. Here at xware, we offer the tools for you to destroy your enemies with the industry’s latest and greatest in-game cheating technologies. With our carefully tested, continuously monitored, easy to use, and community-verified cheats.</p>
+                            <ul class="cFooter_social">
+                              
+                              
+                              
+                              
+                              <li><a href="https://www.tiktok.com/@failedreport" title="tiktok"><i class="fa-brands fa-tiktok"></i></a></li>
+                            </ul>
+                            
+                        </li>
+                        <li class="cFooterLinks_column">
+                            <h2 class="cFooterLinks_title">
+<i class="fa-light fa-bars-staggered"></i> Supported Cheats</h2>
+                            <div class="cFooterLinks">
+                            <ul class="cFooterLinks_list">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="aiaimbot.html">Fortnite hacks</a></li>
+                            </ul>
+                            
+                            
+                            
+                            </div>
+                        <div class="cFooterLinks">
+                            <ul class="cFooterLinks_list">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="spoofer.html">HWID spoofer</a></li>
+                            </ul>
+                            
+                            
+                            
+                            </div></li>
+                    </ul>
+                </div>
+            </div>
+          <div class="cFooter_bottom">
+              
+          </div>
+      </footer>
+
+
+<div id="elMobileDrawer" class="ipsDrawer ipsHide">
+<div class="ipsDrawer_menu">
+  <a href="#" class="ipsDrawer_close" data-action="close"><span>×</span></a>
+  <div class="ipsDrawer_content ipsFlex ipsFlex-fd:column">
+<ul id="elUserNav_mobile" class="ipsList_inline signed_in ipsClearfix">
+
+
+
+</ul>
+
+
+      <div class="ipsPadding ipsBorder_bottom">
+        <ul class="ipsToolList ipsToolList_vertical">
+          <li>
+            <a href="https://lavicheats.com/login/" id="elSigninButton_mobile" class="ipsButton ipsButton_light ipsButton_small ipsButton_fullWidth">Existing user? Sign In</a>
+          </li>
+
+            <li>
+
+                <a href="https://lavicheats.com/register/" data-ipsdialog="" data-ipsdialog-size="narrow" data-ipsdialog-title="Sign Up" data-ipsdialog-fixed="true" id="elRegisterButton_mobile" class="ipsButton ipsButton_small ipsButton_fullWidth ipsButton_important">Sign Up</a>
+
+            </li>
+
+        </ul>
+      </div>
+
+
+
+
+    <ul class="ipsDrawer_list ipsFlex-flex:11">
+
+
+
+
+
+
+
+
+
+            <li><a href="https://lavicheats.com/forums/">Forums</a></li>
+
+
+
+
+
+
+            <li><a href="https://lavicheats.com/status/">Status</a></li>
+
+
+
+
+
+
+            <li><a href="https://lavicheats.com/forums/forum/4-cheats/">Cheats Info</a></li>
+
+
+
+
+
+
+            <li class="ipsDrawer_itemParent">
+              <h4 class="ipsDrawer_title"><a href="#">Store</a></h4>
+              <ul class="ipsDrawer_list">
+                <li data-action="back"><a href="#">Back</a></li>
+
+
+
+
+
+
+
+
+
+
+    <li>
+      <a href="https://lavicheats.com/store/">
+        Store
+      </a>
+    </li>
+
+
+
+
+
+
+
+              </ul>
+            </li>
+
+
+
+
+
+
+            <li><a href="https://lavicheats.com/forums/forum/43-reviews/">Reviews</a></li>
+
+
+
+
+
+
+            <li><a href="https://lavicheats.com/files/categories/">Downloads</a></li>
+
+
+
+
+
+
+    </ul>
+
+
+  </div>
+</div>
+</div>
+
+<div id="elMobileCreateMenuDrawer" class="ipsDrawer ipsHide">
+<div class="ipsDrawer_menu">
+  <a href="#" class="ipsDrawer_close" data-action="close"><span>×</span></a>
+  <div class="ipsDrawer_content ipsSpacer_bottom ipsPad">
+    <ul class="ipsDrawer_list">
+      <li class="ipsDrawer_listTitle ipsType_reset">Create New...</li>
+
+    </ul>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+  var ipsDebug = false;		
+
+  var CKEDITOR_BASEPATH = '//lavicheats.com/applications/core/interface/ckeditor/ckeditor/';
+
+  var ipsSettings = {
+
+
+    cookie_path: "/",
+
+    cookie_prefix: "ips4_",
+
+
+    cookie_ssl: true,
+
+          essential_cookies: ["oauth_authorize","member_id","login_key","clearAutosave","lastSearch","device_key","IPSSessionFront","loggedIn","noCache","hasJS","cookie_consent","cookie_consent_optional","referred_by","forumpass_*","cm_reg","location","currency","guestTransactionKey"],
+    upload_imgURL: "",
+    message_imgURL: "",
+    notification_imgURL: "",
+    baseURL: "//lavicheats.com/",
+    jsURL: "//lavicheats.com/applications/core/interface/js/js.php",
+    csrfKey: "c6a766872f07b7adb35bb34f520e5766",
+    antiCache: "0eefbca3311739167709",
+    jsAntiCache: "0eefbca3311740127819",
+    disableNotificationSounds: true,
+    useCompiledFiles: true,
+    links_external: true,
+    memberID: 0,
+    lazyLoadEnabled: true,
+    blankImg: "//lavicheats.com/applications/core/interface/js/spacer.png",
+    googleAnalyticsEnabled: false,
+    matomoEnabled: false,
+    viewProfiles: true,
+    mapProvider: 'none',
+    mapApiKey: '',
+    pushPublicKey: "BG5qy4nVSBWP35W6BcGT7Q7BnnHEiIszF7Elbxl-adtOAppWytaJtWqqUq0gntku_5eLMWuu4lbCX5n3M_0TqWs",
+    relativeDates: true
+  };
+
+
+
+
+    ipsSettings['maxImageDimensions'] = {
+      width: 1000,
+      height: 750
+    };
+
+
+</script>
+
+
+
+
+
+<script type="text/javascript" src="https://lavicheats.com/uploads/javascript_global/root_library.js?v=0eefbca3311740127819" data-ips=""></script>
+
+
+<script type="text/javascript" src="https://lavicheats.com/uploads/javascript_global/root_js_lang_1.js?v=0eefbca3311740127819" data-ips=""></script>
+
+
+<script type="text/javascript" src="https://lavicheats.com/uploads/javascript_global/root_framework.js?v=0eefbca3311740127819" data-ips=""></script>
+
+
+<script type="text/javascript" src="https://lavicheats.com/uploads/javascript_core/global_global_core.js?v=0eefbca3311740127819" data-ips=""></script>
+
+
+<script type="text/javascript" src="https://lavicheats.com/uploads/javascript_dp45externalbuyurlsnexus/front_front_store.js?v=0eefbca3311740127819" data-ips=""></script>
+
+
+<script type="text/javascript" src="https://lavicheats.com/uploads/javascript_dp46wintopay/front_front_checkout.js?v=0eefbca3311740127819" data-ips=""></script>
+
+
+<script type="text/javascript" src="https://lavicheats.com/uploads/javascript_global/root_front.js?v=0eefbca3311740127819" data-ips=""></script>
+
+
+<script type="text/javascript" src="https://lavicheats.com/uploads/javascript_core/front_front_core.js?v=0eefbca3311740127819" data-ips=""></script>
+
+
+<script type="text/javascript" src="https://js.stripe.com/v3/" data-ips=""></script>
+
+
+<script type="text/javascript" src="https://lavicheats.com/uploads/javascript_global/root_map.js?v=0eefbca3311740127819" data-ips=""></script>
+
+
+
+<script type="text/javascript">
+
+    ips.setSetting( 'date_format', jQuery.parseJSON('"mm\/dd\/yy"') );
+
+    ips.setSetting( 'date_first_day', jQuery.parseJSON('0') );
+
+    ips.setSetting( 'ipb_url_filter_option', jQuery.parseJSON('"none"') );
+
+    ips.setSetting( 'url_filter_any_action', jQuery.parseJSON('"allow"') );
+
+    ips.setSetting( 'bypass_profanity', jQuery.parseJSON('0') );
+
+    ips.setSetting( 'emoji_style', jQuery.parseJSON('"native"') );
+
+    ips.setSetting( 'emoji_shortcodes', jQuery.parseJSON('true') );
+
+    ips.setSetting( 'emoji_ascii', jQuery.parseJSON('true') );
+
+    ips.setSetting( 'emoji_cache', jQuery.parseJSON('1698252601') );
+
+    ips.setSetting( 'image_jpg_quality', jQuery.parseJSON('100') );
+
+    ips.setSetting( 'cloud2', jQuery.parseJSON('false') );
+
+    ips.setSetting( 'isAnonymous', jQuery.parseJSON('false') );
+
+
+
+  </script>
+
+
+
+
+
+<script type="text/javascript" data-ips="">
+document.addEventListener("DOMContentLoaded", function() {
+  var themeEv = document.getElementById("drawncodes");
+  if (!themeEv) {
+    document.body.setAttribute("data-theme-error", "true");
+  } else {
+    themeEv.setAttribute("data-theme-author", "Alexandru - www.drawncodes.com");
+    themeEv.setAttribute("data-theme-name", "Lavi New");
+  }
+});
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://www.schema.org",
+  "publisher": "https://lavicheats.com/#organization",
+  "@type": "WebSite",
+  "@id": "https://lavicheats.com/#website",
+  "mainEntityOfPage": "https://lavicheats.com/",
+  "name": "LaviCheats",
+  "url": "https://lavicheats.com/",
+  "potentialAction": {
+      "type": "SearchAction",
+      "query-input": "required name=query",
+      "target": "https://lavicheats.com/search/?q={query}"
+  },
+  "inLanguage": [
+      {
+          "@type": "Language",
+          "name": "English (USA)",
+          "alternateName": "en-US"
+      }
+  ]
+}	
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://www.schema.org",
+  "@type": "Organization",
+  "@id": "https://lavicheats.com/#organization",
+  "mainEntityOfPage": "https://lavicheats.com/",
+  "name": "LaviCheats",
+  "url": "https://lavicheats.com/",
+  "logo": {
+      "@type": "ImageObject",
+      "@id": "https://lavicheats.com/#logo",
+      "url": "https://lavicheats.com/uploads/monthly_2024_07/logo.webp.b94057049ae3fc9666a37b7c02b2b141.webp"
+  },
+  "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "117 S 1st St",
+      "addressLocality": "Sierra Vista",
+      "addressRegion": "Arizona",
+      "postalCode": "85635",
+      "addressCountry": "US"
+  }
+}	
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+      {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+              "@id": "https://lavicheats.com/store/",
+              "name": "Store"
+          }
+      }
+  ]
+}	
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "ContactPage",
+  "url": "https://lavicheats.com/contact/"
+}	
+</script>
+
+
+
+<script type="text/javascript">
+  (() => {
+      let gqlKeys = [];
+      for (let [k, v] of Object.entries(gqlKeys)) {
+          ips.setGraphQlData(k, v);
+      }
+  })();
+</script>
+
+  <!--ipsQueryLog-->
+  <!--ipsCachingLog-->
+
+      <script> $(".drawnc-action_gotop").click(function() { $('html, body').animate({ scrollTop: $("html").offset().top }, 800); }); </script>
+      <script>
+        $('.groups-tabButton').on('click', function() {
+          var tabId = $(this).attr('data-groups-id');
+          cTab(tabId);
+        });
+        function cTab(tabId) {
+          $('.groups-tabContent').filter(':visible').fadeOut(150, function() {
+            $(this).removeClass('is-active');
+            $('#' + tabId).fadeIn(150, function() {
+              $(this).addClass('is-active');
+            });
+          });
+          $('.groups-tabButton').removeClass('is-active');
+          $('[data-groups-id="' + tabId + '"]').addClass('is-active');
+        };
+      </script>
+
+
+
+
+
+<span style="visibility: hidden; position: absolute; top: -300px; width: 1px; height: 1px; overflow: hidden; left: -300px;"><span class="ipsLoading ipsLoading_noAnim" style="display: block;"></span></span><iframe allow="join-ad-interest-group" data-tagging-id="G-J8TEZ3TWF5" data-load-time="1740238014976" height="0" width="0" src="https://td.doubleclick.net/td/ga/rul?tid=G-J8TEZ3TWF5&amp;gacid=563644471.1740237413&amp;gtm=45je52k0v896072598za200zb841261487&amp;dma=0&amp;gcd=13l3l3l3l1l1&amp;npa=0&amp;pscdl=noapi&amp;aip=1&amp;fledge=1&amp;frm=0&amp;tag_exp=101732279~101732281~102067808~102482433~102539968~102558064~102587591~102605417~102640600~102658453&amp;z=1892772073" style="display: none; visibility: hidden;"></iframe><iframe name="__privateStripeMetricsController2860" frameborder="0" allowtransparency="true" scrolling="no" role="presentation" allow="payment *" src="https://js.stripe.com/v3/m-outer-3437aaddcdf6922d623e172c2d6f9278.html#url=https%3A%2F%2Flavicheats.com%2Fstore%2F&amp;title=Store%20-%20Top%20Game%20hacks&amp;referrer=https%3A%2F%2Flavicheats.com%2Fstatus%2F&amp;muid=NA&amp;sid=NA&amp;version=6&amp;preview=false" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe><span style="visibility: hidden; position: absolute; top: -300px; width: 1px; height: 1px; overflow: hidden; left: -300px;"><span class="ipsLoading ipsLoading_noAnim" style="display: block;"></span></span><iframe name="__privateStripeMetricsController3470" frameborder="0" allowtransparency="true" scrolling="no" role="presentation" allow="payment *" src="https://js.stripe.com/v3/m-outer-3437aaddcdf6922d623e172c2d6f9278.html#url=https%3A%2F%2F3c4f8c1c-c6a9-41be-b073-860692821a3d-00-1d7o17knh8o01.janeway.replit.dev%2Fstore.html&amp;title=Store%20-%20Top%20Game%20hacks&amp;referrer=https%3A%2F%2F3c4f8c1c-c6a9-41be-b073-860692821a3d-00-1d7o17knh8o01.janeway.replit.dev%2F&amp;muid=78ebf449-ad7c-4575-8f99-3fdc5880ef145cfb9c&amp;sid=1d1b9577-7ce6-41dc-af63-3922840fddffd6bc97&amp;version=6&amp;preview=false" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe><span style="visibility: hidden; position: absolute; top: -300px; width: 1px; height: 1px; overflow: hidden; left: -300px;"><span class="ipsLoading ipsLoading_noAnim" style="display: block;"></span></span><iframe name="__privateStripeMetricsController1780" frameborder="0" allowtransparency="true" scrolling="no" role="presentation" allow="payment *" src="https://js.stripe.com/v3/m-outer-3437aaddcdf6922d623e172c2d6f9278.html#url=https%3A%2F%2F3c4f8c1c-c6a9-41be-b073-860692821a3d-00-1d7o17knh8o01.janeway.replit.dev%2Fstore.html&amp;title=Store%20-%20Top%20Game%20hacks&amp;referrer=https%3A%2F%2F3c4f8c1c-c6a9-41be-b073-860692821a3d-00-1d7o17knh8o01.janeway.replit.dev%2F&amp;muid=78ebf449-ad7c-4575-8f99-3fdc5880ef145cfb9c&amp;sid=1d1b9577-7ce6-41dc-af63-3922840fddffd6bc97&amp;version=6&amp;preview=false" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe></body></html>
